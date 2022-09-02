@@ -1,14 +1,14 @@
-import React, { useState } from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './styles.css'
-import {HeroesApp} from "./HeroesApp";
-import {BrowserRouter} from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+import { Prueba } from './Prueba';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-    <HeroesApp />
+      <Prueba />
     </BrowserRouter>
   </React.StrictMode>
 )

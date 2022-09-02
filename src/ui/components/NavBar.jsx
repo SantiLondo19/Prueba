@@ -16,20 +16,17 @@ export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark p-2">
       <Link className="navbar-brand" to="/">
-        Asociaciones
+        Home
       </Link>
 
       <div className="navbar-collapse">
         <div className="navbar-nav">
-          <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="/marvel">
-            Marvel
+          <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="/list">
+            Usuarios
           </NavLink>
 
-          <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="/dc">
-            DC
-          </NavLink>
-          <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="/search">
-            Search
+          <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="/preguntas">
+            Preguntas
           </NavLink>
         </div>
       </div>
