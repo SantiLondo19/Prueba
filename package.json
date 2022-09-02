@@ -1,8 +1,11 @@
 {
   "name": "prueba-spa",
+  "homepage": "https://github.com/SantiLondo19.github.io/prueba-spa",
   "private": true,
   "version": "0.0.0",
   "scripts": {
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
