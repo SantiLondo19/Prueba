@@ -54,7 +54,7 @@ export const Preguntas = () => {
             <p>
                 {forAsync}
             </p>
-
+            <hr />
             <h2>Qué métodos de seguridad se pueden utilizar en los consumos de servicios rest.</h2>
             <ul>
                 <li>Autenticacón básica</li>
